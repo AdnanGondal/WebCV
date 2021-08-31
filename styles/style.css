@@ -1,5 +1,5 @@
 body {
-  background-color: coral;
+  background-color: burlywood;
   font-family: "Helvetica", "Arial", sans-serif;
 }
 
@@ -24,6 +24,10 @@ li:not(:last-child) {
   margin-bottom: 4px;
 }
 
+ul {
+  margin-top: 0.3rem;
+}
+
 #image-contact-container {
   display: flex;
   justify-content: flex-start;
@@ -45,6 +49,7 @@ li:not(:last-child) {
   display: block;
   padding: 2.5rem auto;
   line-height: 2rem;
+  margin-top: 1rem;
 }
 
 #skills-div {
@@ -53,7 +58,12 @@ li:not(:last-child) {
 
 #interpersonal-div {
   width: 50%;
-  padding-right: 2rem;
+
+  border-right: 1px solid black;
+}
+
+#technical-div {
+  padding-left: 1rem;
 }
 
 .skill-list {
@@ -68,4 +78,12 @@ li:not(:last-child) {
 #uni-description {
   list-style-type: none;
   padding: 0;
+}
+
+#awards-list {
+  padding: 0;
+}
+.date-role-div {
+  display: flex;
+  justify-content: space-between;
 }
