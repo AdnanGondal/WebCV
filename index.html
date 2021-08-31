@@ -21,129 +21,167 @@
     <link rel="icon" href="/favicon.ico" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-
     <link rel="stylesheet" href="styles/style.css" />
   </head>
 
   <body>
     <!-- your content here... -->
-    <h1>Adnan Gondal</h1>
+    <main>
+      <section id="contact-section">
+        <div id="image-contact-container">
+          <div id="profile-pic-div">
+            <img
+              id="profile-pic"
+              src="images/IMG_1021.JPG"
+              alt="Profile picture"
+            />
+          </div>
 
-    <img
-      id="profile-pic"
-      src="images/IMG_1021.JPG"
-      alt="Profile picture"
-      width="10%"
-      height="10%"
-    />
+          <div id="address-div">
+            <h1>Adnan Gondal</h1>
+            <address id="address">
+              <strong>Email: </strong> adnangonda1@hotmail.com <br />
+              <strong>Mobile: </strong> +447432885809 <br />
+              <strong>Location: </strong> London
+            </address>
+          </div>
+        </div>
+      </section>
 
-    <address id="address">
-      Email: adnangonda1@hotmail.com <br />
-      Mobile: +44 7432885809 <br />London
-    </address>
+      <section id="skills-section" class="cv-section">
+        <hr />
+        <h2>Skills</h2>
+        <div id="skills-div">
+          <div id="interpersonal-div">
+            <strong>Interpersonal</strong>
+            <ul id="interpersonal-list" class="skill-list">
+              <li>
+                Problem solving: developed via a range of projects and
+                engineering degree.
+              </li>
+              <li>
+                Leadership and Teamwork: gained through leadership roles in
+                group projects and youth organisation
+              </li>
+              <li>
+                Communication: has been required in various internships and
+                teaching roles
+              </li>
+            </ul>
+          </div>
+          <div id="technical-div">
+            <strong>Technical</strong>
+            <ul id="techincal-list" class="skill-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Python</li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
-    <section id="skills-section" class="cv-section">
-      <hr />
-      <h2>Skills</h2>
-      <strong>Interpersonal</strong>
-      <ul id="interpersonal-list">
-        <li>Problem solving</li>
-        <li>Leadership and Teamwork</li>
-        <li>Communication</li>
-      </ul>
-      <strong>Technical</strong>
-      <ul id="techincal-list">
-        <li>HTML, CSS, JavaScript</li>
-        <li>Python</li>
-      </ul>
-    </section>
-
-    <section id="experience-section" class="cv-section">
-      <hr />
-      <h2>Experience</h2>
-      <div id="sigma-experience" class="cv-experience">
-        <strong> Aug 2021 - Present</strong> - Sigma Labs XYZ - Trainee Software
-        Engineer
-        <ul id="sigma-description" class="role-description">
-          <li>Full-stack Software Engineering Training</li>
-          <li>Use of best practices: TDD, Pair Programming and Code Reviews</li>
-        </ul>
-      </div>
-      <div id="firetech-experience" class="cv-experience">
-        <strong> Apr 2020 - Aug 2021</strong> - Fire Tech - Tutor
-      </div>
-      <ul id="firetech-description" class="role-description">
-        <li>
-          Inspired children aged 9-17 to work with technology through the
-          teaching of curricula that focuses on coding, creativity and
-          innovation.
-        </li>
-        <li>
-          Delivered courses in Python, Video Games Design and Augmented/Virtual
-          Reality with an average rating of 5 stars.
-        </li>
-      </ul>
-    </section>
-
-    <section id="project-section" class="cv-section">
-      <hr />
-      <h2>Projects</h2>
-      <div id="thesis-project" class="cv-projects">
-        <strong> Aug 2021 - Present</strong> - Characterisation, detection and
-        removal of artefacts of filtering from field potential data of Traumatic
-        Brain Injury Patients.
-        <ul id="thesis-description" class="project-description">
+      <section id="experience-section" class="cv-section">
+        <hr />
+        <h2>Experience</h2>
+        <div id="sigma-experience" class="cv-experience">
+          <strong> Aug 2021 - Present</strong>
+          <span class="cv-spacing"> </span> Sigma Labs XYZ, Trainee Software
+          Engineer, London UK.
+          <ul id="sigma-description" class="role-description">
+            <li>
+              Full-stack Software Engineering Training: HTML, CSS, JavaScript,
+              React, Deno, SQL
+            </li>
+            <li>
+              Use of best practices: TDD, Pair Programming and Code Reviews
+            </li>
+            <li>Professional High performance training.</li>
+          </ul>
+        </div>
+        <div id="firetech-experience" class="cv-experience">
+          <strong> Apr 2020 - Aug 2021</strong>
+          <span class="cv-spacing"> </span> Fire Tech, Tutor, London UK.
+        </div>
+        <ul id="firetech-description" class="role-description">
           <li>
-            Applied modern signal processing techniques to clinical data streams
-            to allow characterisation of a spontaneous electrophysiological
-            mechanism that is linked to increasing brain injury size
+            Inspired children aged 9-17 to work with technology through the
+            teaching of curricula that focuses on coding, creativity and
+            innovation.
           </li>
           <li>
-            Researched, implemented, and evaluated Change point detection (CPD)
-            algorithms for the removal of artefacts.
+            Delivered courses in Python, Video Games Design and
+            Augmented/Virtual Reality with an average rating of 5 stars.
           </li>
         </ul>
-      </div>
-    </section>
+      </section>
 
-    <section id="education-section" class="cv-section">
-      <hr />
-      <h2>Education</h2>
-      <div id="thesis-project" class="cv-projects">
-        <strong> Sep 2017 - Jul 2021</strong> - Imperial College London, UK
-        <br />
-        Masters in Engineering (MEng) in Biomedical Engineering via Electrical
-        Engineering <br />
-        Grade: 1st <br />
-        Relevant Modules: Programming 3, Adaptive Signal Processing and Machine
-        Intelligence
-      </div>
-    </section>
+      <section id="project-section" class="cv-section">
+        <hr />
+        <h2>Projects</h2>
+        <div id="thesis-project" class="cv-projects">
+          <strong> Oct 2020 - Jun 2021</strong
+          ><span class="cv-spacing"> </span> Masters Thesis <br />
 
-    <section id="certifications-section" class="cv-section">
-      <hr />
-      <h2>Awards and Certifications</h2>
-      <ul id="awards-list">
-        <li>Fundamentals of Deep Learning, Nvidia DLI.</li>
-      </ul>
-    </section>
+          <ul id="thesis-description" class="project-description">
+            <li>
+              Title: Characterisation, detection and removal of artefacts from
+              field potential data of Traumatic Brain Injury Patients.
+            </li>
+            <li>
+              Researched, implemented, and evaluated Change point detection
+              (CPD) algorithms for the removal of artefacts.
+            </li>
+            <li>Grade: 80%</li>
+          </ul>
+        </div>
+      </section>
 
-    <section id="interests-section" class="cv-section">
-      <hr />
-      <h2>Interests</h2>
-      <ul id="interests-list">
-        <li>
-          Regional Youth Coordinator: Responsible for leading a team of 12 that
-          organises events for over 120 children.
-        </li>
-        <li>
-          Volunteering: Take time out for charity fundraising, visiting the
-          elderly, cleaning the local park/streets, tree planting and food
-          drives. Have recently started volunteering at vaccination centre.
-        </li>
-      </ul>
-    </section>
+      <section id="education-section" class="cv-section">
+        <hr />
+        <h2>Education</h2>
+        <div id="uni-div" class="education-div">
+          <strong> Sep 2017 - Jul 2021</strong>
+          <span class="cv-spacing"> </span> Imperial College London, UK
+          <br />
+          <ul id="uni-description">
+            <li>
+              Masters in Engineering (MEng) in Biomedical Engineering via
+              Electrical Engineering
+            </li>
+            <li>Grade: 1st</li>
+            <li>
+              Relevant Modules: Programming 3, Adaptive Signal Processing and
+              Machine Intelligence
+            </li>
+          </ul>
+        </div>
+      </section>
 
+      <section id="certifications-section" class="cv-section">
+        <hr />
+        <h2>Awards and Certifications</h2>
+        <ul id="awards-list">
+          <li>Fundamentals of Deep Learning, Nvidia DLI.</li>
+        </ul>
+      </section>
+
+      <section id="interests-section" class="cv-section">
+        <hr />
+        <h2>Interests</h2>
+        <ul id="interests-list">
+          <li>
+            Regional Youth Coordinator: Responsible for leading a team of 12
+            that organises events for over 120 children.
+          </li>
+          <li>
+            Volunteering: Take time out for charity fundraising, visiting the
+            elderly, cleaning the local park/streets, tree planting and food
+            drives. Have recently started volunteering at vaccination centre.
+          </li>
+        </ul>
+      </section>
+    </main>
     <script src="scripts/script.js"></script>
   </body>
 </html>
