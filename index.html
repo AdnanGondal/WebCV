@@ -5,12 +5,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>A Basic HTML5 Template</title>
+    <title>Adnan Gondal</title>
     <meta
       name="description"
-      content="A simple HTML5 Template for new projects."
+      content="Adnans CV, which outlines his skills and experiences"
     />
-    <meta name="author" content="AdnanGondal" />
+    <meta name="author" content="Adnan Gondal" />
 
     <meta property="og:title" content="[CHANGE ME]" />
     <meta property="og:type" content="website" />
@@ -22,12 +22,128 @@
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
-    <link rel="stylesheet" href="css/styles.css?v=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
 
   <body>
     <!-- your content here... -->
-    <h1>Hello World</h1>
+    <h1>Adnan Gondal</h1>
+
+    <img
+      id="profile-pic"
+      src="images/IMG_1021.JPG"
+      alt="Profile picture"
+      width="10%"
+      height="10%"
+    />
+
+    <address id="address">
+      Email: adnangonda1@hotmail.com <br />
+      Mobile: +44 7432885809 <br />London
+    </address>
+
+    <section id="skills-section" class="cv-section">
+      <hr />
+      <h2>Skills</h2>
+      <strong>Interpersonal</strong>
+      <ul id="interpersonal-list">
+        <li>Problem solving</li>
+        <li>Leadership and Teamwork</li>
+        <li>Communication</li>
+      </ul>
+      <strong>Technical</strong>
+      <ul id="techincal-list">
+        <li>HTML, CSS, JavaScript</li>
+        <li>Python</li>
+      </ul>
+    </section>
+
+    <section id="experience-section" class="cv-section">
+      <hr />
+      <h2>Experience</h2>
+      <div id="sigma-experience" class="cv-experience">
+        <strong> Aug 2021 - Present</strong> - Sigma Labs XYZ - Trainee Software
+        Engineer
+        <ul id="sigma-description" class="role-description">
+          <li>Full-stack Software Engineering Training</li>
+          <li>Use of best practices: TDD, Pair Programming and Code Reviews</li>
+        </ul>
+      </div>
+      <div id="firetech-experience" class="cv-experience">
+        <strong> Apr 2020 - Aug 2021</strong> - Fire Tech - Tutor
+      </div>
+      <ul id="firetech-description" class="role-description">
+        <li>
+          Inspired children aged 9-17 to work with technology through the
+          teaching of curricula that focuses on coding, creativity and
+          innovation.
+        </li>
+        <li>
+          Delivered courses in Python, Video Games Design and Augmented/Virtual
+          Reality with an average rating of 5 stars.
+        </li>
+      </ul>
+    </section>
+
+    <section id="project-section" class="cv-section">
+      <hr />
+      <h2>Projects</h2>
+      <div id="thesis-project" class="cv-projects">
+        <strong> Aug 2021 - Present</strong> - Characterisation, detection and
+        removal of artefacts of filtering from field potential data of Traumatic
+        Brain Injury Patients.
+        <ul id="thesis-description" class="project-description">
+          <li>
+            Applied modern signal processing techniques to clinical data streams
+            to allow characterisation of a spontaneous electrophysiological
+            mechanism that is linked to increasing brain injury size
+          </li>
+          <li>
+            Researched, implemented, and evaluated Change point detection (CPD)
+            algorithms for the removal of artefacts.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="education-section" class="cv-section">
+      <hr />
+      <h2>Education</h2>
+      <div id="thesis-project" class="cv-projects">
+        <strong> Sep 2017 - Jul 2021</strong> - Imperial College London, UK
+        <br />
+        Masters in Engineering (MEng) in Biomedical Engineering via Electrical
+        Engineering <br />
+        Grade: 1st <br />
+        Relevant Modules: Programming 3, Adaptive Signal Processing and Machine
+        Intelligence
+      </div>
+    </section>
+
+    <section id="certifications-section" class="cv-section">
+      <hr />
+      <h2>Awards and Certifications</h2>
+      <ul id="awards-list">
+        <li>Fundamentals of Deep Learning, Nvidia DLI.</li>
+      </ul>
+    </section>
+
+    <section id="interests-section" class="cv-section">
+      <hr />
+      <h2>Interests</h2>
+      <ul id="interests-list">
+        <li>
+          Regional Youth Coordinator: Responsible for leading a team of 12 that
+          organises events for over 120 children.
+        </li>
+        <li>
+          Volunteering: Take time out for charity fundraising, visiting the
+          elderly, cleaning the local park/streets, tree planting and food
+          drives. Have recently started volunteering at vaccination centre.
+        </li>
+      </ul>
+    </section>
+
     <script src="scripts/script.js"></script>
   </body>
 </html>
